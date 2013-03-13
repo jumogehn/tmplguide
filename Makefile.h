@@ -10,26 +10,26 @@
 #GCCFLAGS=-g -Wall -ansi -fhonor-std
 GCCFLAGS=-g -ansi -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wtraditional -pedantic
 # gcc 3.0.2
-GCCDIR=/local/gcc/rundir
-CXX =  $(GCCDIR)/bin/g++
+#GCCDIR=/local/gcc/rundir
+#CXX =  $(GCCDIR)/bin/g++
 CXXFLAGS = $(GCCFLAGS)
-LIBCPPDIR = $(GCCDIR)/lib
-LDFLAGS = -L$(LIBCPPDIR) -Wl,--rpath -Wl,$(LIBCPPDIR) -lm
+#LIBCPPDIR = $(GCCDIR)/lib
+#LDFLAGS = -L$(LIBCPPDIR) -Wl,--rpath -Wl,$(LIBCPPDIR) -lm
 
 
 ########
 # EDG (and my personal std headers)
 ########
-CXX = /local/edg/bin/eccp --exceptions --strict
-CXXFLAGS = -Imystd -I../mystd
-LDFLAGS = -lm
+#CXX = /local/edg/bin/eccp --exceptions --strict
+#CXXFLAGS = -Imystd -I../mystd
+#LDFLAGS = -lm
 
 ########
 # Microsoft Visual C++
 ########
-CXX = cl /Za /Zc:forScope,wchar_t
-CXXFLAGS =
-LDFLAGS = 
+#CXX = cl /Za /Zc:forScope,wchar_t
+#CXXFLAGS =
+#LDFLAGS = 
 
 
 ##################################################################

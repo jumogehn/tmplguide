@@ -10,7 +10,7 @@
  */
 template <typename T, typename CONT>
  template <typename T2, typename CONT2>
-Stack<T,CONT>& 
+Stack<T,CONT>&
 Stack<T,CONT>::operator= (Stack<T2,CONT2> const& op2)
 {
     if ((void*)this == (void*)&op2) {    // assignment to itself?
