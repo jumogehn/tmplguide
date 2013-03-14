@@ -2730,18 +2730,18 @@ PolicySetter4 = DefaultPolicyArgs
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00CEE4EA</XPD:ATTR>
 <XPD:ATTR name="FontSize" type="integer">12</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">916</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">868</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">420</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">135</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">233</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">50</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">P3 is overridden
-by a subclass
+<XPD:ATTR name="Text" type="string">P3 is overridden by a subclass
+--&gt; Domination Rule
 </XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedViews[110]" type="UMLNoteLinkView" guid="SAXZGCJoSk2ROI283F1c4gAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">1064,202;1024,208;996,232;984,276;983,420</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">1064,202;1024,208;996,232;984,276;984,420</XPD:ATTR>
 <XPD:REF name="Head">J6LkXo3fwUOZxZDKm2KJ3wAA</XPD:REF>
 <XPD:REF name="Tail">fW2+t1DTVkiJQUO2FFpf7QAA</XPD:REF>
 </XPD:OBJ>
